@@ -45,7 +45,6 @@
                             <goal>report</goal>
                         </goals>
                     </execution>
-                    <!-- ДОБАВЬТЕ ЭТОТ execution -->
                     <execution>
                         <id>check</id>
                         <goals>
@@ -59,7 +58,7 @@
                                         <limit>
                                             <counter>BRANCH</counter>
                                             <value>COVEREDRATIO</value>
-                                            <minimum>1.0</minimum> <!-- 100% -->
+                                            <minimum>1.0</minimum>
                                         </limit>
                                     </limits>
                                 </rule>
